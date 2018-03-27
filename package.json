@@ -1,0 +1,30 @@
+{
+  "name": "demo-react-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "ejs": "^2.5.8",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-mysql-session": "^0.0.2",
+    "koa-router": "^7.4.0",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.4",
+    "koa2-cors": "^2.0.5",
+    "md5": "^2.2.1",
+    "moment": "^2.21.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.4"
+  }
+}
